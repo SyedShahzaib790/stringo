@@ -23,4 +23,16 @@ For Demo Purpose I am going to use the following examples:
 ```python
 simple_string = "I am a Programmer"
 list_of_strings = ["I am a Programmer", "I love to Code"]
+dataframe = pd.DataFrame(["I am a Programmer", "I love to Code"], columns=['strings'])
+series = pd.Series(["I am a Programmer", "I love to Code"])
+```
+
+```
+print ('Simple String : \n', stem_object(simple_string))
+print ('---------- \nList of Strings : \n', stem_object(list_of_strings))
+print ('---------- \nDataFrame : \n', stem_object(dataframe))
+print ('---------- \nSeries: \n', stem_object(series))
+
+OUTPUT:
+
 ```
