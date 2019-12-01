@@ -28,6 +28,8 @@ dataframe = pd.DataFrame(["I am a Programmer  ", "I love to Code."], columns=['s
 series = pd.Series(["I am a Programmer!!!", "I love to Code...  ..."])
 ```
 
+# <a href='stem_object'>stem_object</a>
+
 ```
 print ('Simple String : \n', stem_object(simple_string))
 print ('---------- \nList of Strings : \n', stem_object(list_of_strings))
