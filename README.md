@@ -22,10 +22,10 @@
 #### For Demo Purpose I am going to use the following examples:
 
 ```python
-simple_string = "I am a Programmer"
-list_of_strings = ["I am a Programmer", "I love to Code"]
-dataframe = pd.DataFrame(["I am a Programmer", "I love to Code"], columns=['strings'])
-series = pd.Series(["I am a Programmer", "I love to Code"])
+simple_string = "I am a Programmer  !"
+list_of_strings = ["I am a Programmer  !", "@I love to Code"]
+dataframe = pd.DataFrame(["I am a Programmer  ", "I love to Code."], columns=['strings'])
+series = pd.Series(["I am a Programmer!!!", "I love to Code...  ..."])
 ```
 
 ```
@@ -37,18 +37,18 @@ print ('---------- \nSeries: \n', stem_object(series))
 ======== OUTPUT =============>
 
 Simple String: 
- i am a programm
+ i am a programmer  !
 ---------- 
 List of Strings: 
- ['i am a programm', 'i love to cod']
+ ['i am a programmer  !', '@i love to cod']
 ---------- 
 DataFrame: 
-            strings
-0  i am a programm
-1    i love to cod
+                strings
+0  i am a programmer  
+1      i love to code.
 ---------- 
 Series: 
-0    i am a programm
-1      i love to cod
+0      i am a programmer!!!
+1    i love to code...  ...
 
 ```
