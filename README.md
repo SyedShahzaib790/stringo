@@ -28,7 +28,7 @@ dataframe = pd.DataFrame(["I am a Programmer  ", "I love to Code."], columns=['s
 series = pd.Series(["I am a Programmer!!!", "I love to Code...  ..."])
 ```
 
-# <a href='stem_object'>stem_object</a>
+##  <a href='stem_object'>stem_object</a>
 
 ```
 print ('Simple String : \n', stem_object(simple_string))
@@ -55,7 +55,7 @@ Series:
 
 ```
 
-# <a href="remove_extra_spaces">remove_extra_spaces</a>
+##  <a href="remove_extra_spaces">remove_extra_spaces</a>
 
 ```
 print ('Simple String: \n', remove_extra_spaces(simple_string))
@@ -83,7 +83,7 @@ Series:
 ```
 
 
-# <a href="remove_punctuations">remove_punctuations</a>
+## <a href="remove_punctuations">remove_punctuations</a>
 ```
 print ('Simple String: \n', remove_punctuations(simple_string))
 print ('---------- \nList of Strings: \n', remove_punctuations(list_of_strings))
@@ -106,7 +106,7 @@ Series:
 1       I love to Code
 ```
 
-# <a href="sort_list_of_strings">sort_list_of_strings</a>
+## <a href="sort_list_of_strings">sort_list_of_strings</a>
 
 ```
 print ('Simple String: \n', sort_list_of_strings(simple_string))
@@ -130,7 +130,7 @@ Series:
 1    I love to Code...  ...
 ```
 
-# <a href="tokenize_string_spacy">tokenize_string_spacy</a>
+## <a href="tokenize_string_spacy">tokenize_string_spacy</a>
 ```
 print ('Simple String: \n', tokenize_string_spacy(simple_string))
 print ('---------- \nList of Strings: \n', tokenize_string_spacy(list_of_strings))
