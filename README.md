@@ -8,3 +8,12 @@
 ## Available Functions
 
 * [apply_function_typewise](#apply_function_typewise)
+* [lemmatize_object](#lemmatize_object)
+* [stem_object](#stem_object)
+* [remove_extra_spaces](#remove_extra_spaces)
+* [split_sentences_spacy](#split_sentences_spacy)
+* [remove_punctuations](#remove_punctuations)
+* [remove_empty_from_list](#remove_empty_from_list)
+* [sort_list_of_strings](#sort_list_of_strings)
+* [tokenize_string_spacy](#tokenize_string_spacy)
+
