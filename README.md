@@ -20,5 +20,7 @@
 ## How it can be Used
 For Demo Purpose I am going to use the following examples:
 
+```python
 simple_string = "I am a Programmer"
 list_of_strings = ["I am a Programmer", "I love to Code"]
+```
