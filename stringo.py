@@ -129,10 +129,9 @@ def sort_list_of_strings(obj='', col_names='', reverse=False):
     OUTPUT: sorted list retaining the original data structure.
     """
     
-    function = lambda x: sorted(x, key=len, reverse=reverse)
+    function = lambda x: sorted(x, key=len, reverse=reverse)  if type(x)==list else x
     if type(obj)==list:
-        obj=[obj]
-        return apply_function_typewise(obj, function, col_names)[0]
+        return function(obj)
     
     return apply_function_typewise(obj, function, col_names)
 
