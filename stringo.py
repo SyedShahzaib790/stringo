@@ -16,15 +16,12 @@ def apply_function_typewise(obj='', function='', col_names=''):
     obj_type = type(obj)
     
     if obj_type == str:
-        print ('str')
         return function(obj)
     
     elif (obj_type==np.ndarray) or (obj_type==list):
-        print ('list')
         return list(map(function, obj))
     
     elif obj_type==pd.DataFrame:
-        print ('df')
         column_names = obj.columns
         if col_names != '':
             column_names = col_names
