@@ -54,3 +54,101 @@ Series:
 1    i love to code...  ...
 
 ```
+
+# <a href="remove_extra_spaces">remove_extra_spaces</a>
+
+```
+print ('Simple String: \n', remove_extra_spaces(simple_string))
+print ('---------- \nList of Strings: \n', remove_extra_spaces(list_of_strings))
+print ('---------- \nDataFrame: \n', remove_extra_spaces(dataframe))
+print ('---------- \nSeries: \n', remove_extra_spaces(series))
+
+Simple String: 
+ I am a Programmer !
+list
+---------- 
+List of Strings: 
+ ['I am a Programmer !', '@I love to Code']
+df
+---------- 
+DataFrame: 
+              strings
+0  I am a Programmer
+1    I love to Code.
+---------- 
+Series: 
+0     I am a Programmer!!!
+1    I love to Code... ...
+
+```
+
+
+# <a href="remove_punctuations">remove_punctuations</a>
+```
+print ('Simple String: \n', remove_punctuations(simple_string))
+print ('---------- \nList of Strings: \n', remove_punctuations(list_of_strings))
+print ('---------- \nDataFrame: \n', remove_punctuations(dataframe))
+print ('---------- \nSeries: \n', remove_punctuations(series))
+
+Simple String: 
+ I am a Programmer
+---------- 
+List of Strings: 
+ ['I am a Programmer', 'I love to Code']
+---------- 
+DataFrame: 
+              strings
+0  I am a Programmer
+1     I love to Code
+---------- 
+Series: 
+0    I am a Programmer
+1       I love to Code
+```
+
+# <a href="sort_list_of_strings">sort_list_of_strings</a>
+
+```
+print ('Simple String: \n', sort_list_of_strings(simple_string))
+print ('---------- \nList of Strings: \n', sort_list_of_strings(list_of_strings, reverse=False))
+print ('---------- \nDataFrame: \n', sort_list_of_strings(dataframe))
+print ('---------- \nSeries: \n', sort_list_of_strings(series))
+
+Simple String: 
+ I am a Programmer  !
+---------- 
+List of Strings: 
+ ['', '@I love to Code', 'I am a Programmer  !'] ## HERE !!!!
+---------- 
+DataFrame: 
+                strings
+0  I am a Programmer  
+1      I love to Code.
+---------- 
+Series: 
+0      I am a Programmer!!!
+1    I love to Code...  ...
+```
+
+# <a href="tokenize_string_spacy">tokenize_string_spacy</a>
+```
+print ('Simple String: \n', tokenize_string_spacy(simple_string))
+print ('---------- \nList of Strings: \n', tokenize_string_spacy(list_of_strings))
+print ('---------- \nDataFrame: \n', tokenize_string_spacy(dataframe))
+print ('---------- \nSeries: \n', tokenize_string_spacy(series))
+Simple String: 
+ ['I', 'am', 'a', 'Programmer', ' ', '!']
+---------- 
+List of Strings: 
+ [['I', 'am', 'a', 'Programmer', ' ', '!'], ['@I', 'love', 'to', 'Code'], []]
+---------- 
+DataFrame: 
+                      strings
+0  [I, am, a, Programmer,  ]
+1     [I, love, to, Code, .]
+---------- 
+Series: 
+0     [I, am, a, Programmer, !, !, !]
+1    [I, love, to, Code, ...,  , ...]
+```
+
