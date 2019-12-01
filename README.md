@@ -34,5 +34,19 @@ print ('---------- \nDataFrame : \n', stem_object(dataframe))
 print ('---------- \nSeries: \n', stem_object(series))
 
 OUTPUT:
+Simple String : 
+ i am a programm
+---------- 
+List of Strings : 
+ ['i am a programm', 'i love to cod']
+---------- 
+DataFrame : 
+            strings
+0  i am a programm
+1    i love to cod
+---------- 
+Series: 
+0    i am a programm
+1      i love to cod
 
 ```
