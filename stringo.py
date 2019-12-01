@@ -111,11 +111,10 @@ def remove_empty_from_list(obj='', col_names=''):
     OUTPUT: Removed empty ('') marks from list retaining the original data structure.
     """
     
-    function = lambda x: np.delete(np.asarray(x), np.where(np.asarray(x)=='')).tolist()
+    function = lambda x: np.delete(np.asarray(x), np.where(np.asarray(x)=='')).tolist() if type(x)==list else x
     if type(obj)==list:
-        obj=[obj]
-        return apply_function_typewise(obj, function, col_names)[0]
-        
+        return function(obj)
+    
     return apply_function_typewise(obj, function, col_names)
 
 
