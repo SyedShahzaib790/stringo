@@ -136,6 +136,7 @@ print ('Simple String: \n', tokenize_string_spacy(simple_string))
 print ('---------- \nList of Strings: \n', tokenize_string_spacy(list_of_strings))
 print ('---------- \nDataFrame: \n', tokenize_string_spacy(dataframe))
 print ('---------- \nSeries: \n', tokenize_string_spacy(series))
+
 Simple String: 
  ['I', 'am', 'a', 'Programmer', ' ', '!']
 ---------- 
