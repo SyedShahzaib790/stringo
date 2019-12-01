@@ -17,3 +17,8 @@
 * [sort_list_of_strings](#sort_list_of_strings)
 * [tokenize_string_spacy](#tokenize_string_spacy)
 
+## How it can be Used
+For Demo Purpose I am going to use the following examples:
+
+simple_string = "I am a Programmer"
+list_of_strings = ["I am a Programmer", "I love to Code"]
