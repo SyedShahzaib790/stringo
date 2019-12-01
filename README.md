@@ -17,8 +17,9 @@
 * [sort_list_of_strings](#sort_list_of_strings)
 * [tokenize_string_spacy](#tokenize_string_spacy)
 
-## How it can be Used
-For Demo Purpose I am going to use the following examples:
+## Usage
+
+#### For Demo Purpose I am going to use the following examples:
 
 ```python
 simple_string = "I am a Programmer"
